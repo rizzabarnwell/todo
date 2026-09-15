@@ -7,12 +7,12 @@
 </head>
 <body>
 
-    <div id="header">
+    <div class="header">
     <h1>Hello User</h1>
     </div>
 
-    <div id="sidebar">
-        <div id="tasks">
+    <div class="sidebar">
+        <div class="tasks">
             <h1>Today's Tasks</h1>
             <ul>
                 <button>add</button>
@@ -22,12 +22,18 @@
             </ul>
         </div>
     </div>
-    <div id="content">
+
+    <div class="content">
+        <div class="calendar">
             <h1>Calendar</h1>
-        <div id="notes">
+        </div>
+        <div class="notes">
             <h1>Notes</h1>
-            <textarea>title</textarea>
-            <textarea>contents...</textarea>
+            <textarea placeholder="Title" rows="1"></textarea>
+            <br></br>
+            <textarea placeholder="Content" rows="5"></textarea>
+            <br></br>
+
             <button type="button">Save Note</button>
             <ul>
                 <li><a href="#n1">Note 1</a></li>
